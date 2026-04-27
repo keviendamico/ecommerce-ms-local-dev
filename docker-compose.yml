@@ -96,6 +96,6 @@ services:
       - "1025:1025"
       - "8025:8025"
   config-server:
-    image: kappa9/ecommerce-ms-config-server:0.0.2
+    image: kappa9/ecommerce-ms-config-server:0.0.5
     ports:
       - "8888:8888"
